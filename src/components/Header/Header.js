@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './logo192.png'
+import logo from './logo.png'
 import './header.css'
 import Nav from './Nav/Nav'
 

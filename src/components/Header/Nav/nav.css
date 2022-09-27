@@ -1,0 +1,8 @@
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 48%;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
