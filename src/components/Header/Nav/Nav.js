@@ -1,9 +1,15 @@
 import React from 'react'
 import './nav.css'
+import Link from './Link/Link'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <ul className='nav-menu'
+    >
+      Nav
+
+    <Link />
+    </ul>
   )
 }
 
