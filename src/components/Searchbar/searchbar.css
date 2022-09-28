@@ -1,0 +1,37 @@
+.searchBar {
+  background-color: cornflowerblue;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* margin: 0 1rem; */
+}
+
+input[type='text'] {
+  padding: 0.5rem 1rem;
+  background: none;  
+  outline: none;
+  font-size: 1.4rem;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+input[type='text']:focus {
+  border: 2px  solid aqua;
+  background: none;
+}
+
+button[type='submit'] {
+  display: inline-block;
+  padding: 0.5rem 1rem;  
+  outline: none;
+  font-size: 1.4rem;
+  border: 3px solid aqua;
+  color: aqua;
+  background: darkblue;
+  margin-right: 1rem;
+}

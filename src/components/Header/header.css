@@ -4,7 +4,7 @@
   background-color: #8020ee;
   color: #fff;
   padding: 0.4rem 1rem;
-  border-bottom: 2px solid bisque;
+  border-bottom: 2px solid aqua20s;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,10 +23,33 @@
   height: 100%;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .logo-div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    animation: spin infinite 20s linear;
+    transform-style: preserve-3d;
+  }
+}
+
+
 .masthead > h1 {
   /* color: aqua; */
   /* flex-basis: 38%; */
   flex-grow: 0;
   flex-shrink: 1;
   font-size: calc(1rem + 1vw);
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+  }
 }

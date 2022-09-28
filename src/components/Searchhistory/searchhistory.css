@@ -1,0 +1,19 @@
+.searchList {
+  /* list-style: none; */
+  color: #fff;
+  width: 90%;
+  margin: 1.5rem auto;
+  text-align: left;
+  /* border: 2px solid darkblue; */
+  /* padding: 1rem; */
+}
+
+li {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+li:first-of-type {
+  list-style: none;
+}
+
