@@ -1,0 +1,12 @@
+.results {
+  color: #fff;
+  width: 40%;
+  margin: 1.5rem auto;
+}
+
+.results li {
+  text-align-last: left;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  list-style: square;
+}

@@ -13,7 +13,7 @@ li {
   font-size: 1.1rem;
 }
 
-li:first-of-type {
+li:last-of-type {
   list-style: none;
 }
 
