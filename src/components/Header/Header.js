@@ -4,7 +4,7 @@ import './header.css'
 import Nav from './Nav/Nav'
 
 
-function Header() {
+function Header(props) {
   return (
     <header className='masthead'>
       <a href="/">
@@ -12,7 +12,7 @@ function Header() {
          <img src={logo} alt="logo" />
         </div>
       </a>
-      <h1>Company Name</h1> 
+      <h1>{props.company}</h1> 
       <Nav />
     </header>
   )
